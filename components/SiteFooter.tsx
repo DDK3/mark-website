@@ -83,7 +83,7 @@ export function SiteFooter() {
                 </a>
               </li>
               <li className="max-w-xs leading-relaxed">
-                HSR Layout in Bangalore
+                Bangalore
                 <br />
                 Karnataka, India, 560102
               </li>
