@@ -169,7 +169,7 @@ export default function Home() {
               Tell us whether it&apos;s shares, property, or insurance—we&apos;ll route you to the right specialist.
             </p>
             <a
-              href="mailto:hello@mark.example?subject=Enquiry%20%E2%80%94%20Mark"
+              href="mailto:rsn974@gmail.com?subject=Enquiry%20%E2%80%94%20Mark"
               className="relative mt-8 inline-flex h-12 items-center justify-center rounded-full bg-white px-10 text-sm font-semibold text-neutral-900 transition hover:bg-white/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               Contact Us

@@ -68,24 +68,24 @@ export function SiteFooter() {
             <ul className="mt-4 flex flex-col gap-3 text-sm text-foreground/75">
               <li>
                 <a
-                  href="mailto:hello@mark.example"
+                  href="mailto:rsn974@gmail.com"
                   className="transition-colors hover:text-foreground"
                 >
-                  hello@mark.example
+                  rsn974@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+15550000000"
+                  href="tel:+919591599955"
                   className="transition-colors hover:text-foreground"
                 >
-                  +1 (555) 000-0000
+                  (+91) 95915 99955
                 </a>
               </li>
               <li className="max-w-xs leading-relaxed">
-                123 Market Street, Suite 400
+                HSR Layout in Bangalore
                 <br />
-                San Francisco, CA 94105
+                Karnataka, India, 560102
               </li>
             </ul>
           </div>

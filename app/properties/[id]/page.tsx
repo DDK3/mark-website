@@ -20,7 +20,8 @@ export function generateMetadata({ params }: Props): Metadata {
 }
 
 const mailto = (title: string) =>
-  `mailto:hello@mark.example?subject=${encodeURIComponent(`Property: ${title}`)}`;
+  `mailto:rsn974@gmail.com?subject=${encodeURIComponent(`Property: ${title}`)}`;
+// `mailto:hello@mark.example?subject=${encodeURIComponent(`Property: ${title}`)}`;
 
 export default function PropertyDetailPage({ params }: Props) {
   const property = getListingById(params.id);
@@ -93,7 +94,7 @@ export default function PropertyDetailPage({ params }: Props) {
                   Contact us
                 </a>
                 <a
-                  href="tel:+15550000000"
+                  href="tel:+919591599955"
                   className="flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-black/10 bg-transparent text-sm font-semibold text-foreground transition hover:bg-black/[0.03] dark:border-white/15 dark:hover:bg-white/[0.06]"
                 >
                   <svg className="h-5 w-5 text-foreground/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.75} aria-hidden>
@@ -103,7 +104,7 @@ export default function PropertyDetailPage({ params }: Props) {
                       d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.964 3.102c-.125-.5-.625-.852-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
                     />
                   </svg>
-                  Call +1 (555) 000-0000
+                  Call (+91) 95915 99955
                 </a>
               </div>
             </div>
