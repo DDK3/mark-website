@@ -16,9 +16,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Mark | Shares, Property & Postal Insurance",
+  title: "Mark & Sell | Shares, Property & Postal Insurance",
   description:
-    "Mark — share recovery (Demat & IEPF), property investment, and postal insurance. RERA registered broker, MSME (Udyam) registered.",
+    "Shares recovery (Demat & IEPF), property investment, and postal insurance. RERA registered broker, MSME (Udyam) registered.",
 };
 
 export default function RootLayout({

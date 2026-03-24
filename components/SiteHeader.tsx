@@ -31,7 +31,7 @@ export function SiteHeader() {
              priority
            />
            <span className="text-lg font-semibold tracking-tight sm:text-xl">
-             Mark
+             Mark & Sell
            </span>
         </Link>
         

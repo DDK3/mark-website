@@ -61,11 +61,14 @@ export default function Home() {
           aria-hidden
         />
         <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 pb-14 pt-28 sm:px-6 sm:pb-20 sm:pt-32 lg:px-8 lg:pb-24 lg:pt-36">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80 sm:text-sm">
+          {/* <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80 sm:text-sm">
             Mark
-          </p>
-          <h1 className="max-w-4xl text-3xl font-semibold leading-tight tracking-tight text-balance text-white sm:text-4xl md:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
+          </p> */}
+            {/* <h1 className="max-w-4xl text-3xl font-semibold leading-tight tracking-tight text-balance text-white sm:text-4xl md:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
             Mark – Share Recovery, Property Investment &amp; Insurance Services
+          </h1> */}
+          <h1 className="max-w-4xl text-3xl font-semibold leading-tight tracking-tight text-balance text-white sm:text-4xl md:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
+            Share Recovery, Property Investment &amp; Insurance Services
           </h1>
           <p className="max-w-2xl text-base leading-relaxed text-white/85 sm:text-lg">
             One partner for unclaimed shares, demat and IEPF matters, property investments, and postal
@@ -122,58 +125,51 @@ export default function Home() {
         >
           <h2 className="text-center text-xl font-semibold sm:text-2xl">Trusted &amp; registered</h2>
           <p className="mx-auto mt-2 max-w-xl text-center text-sm text-foreground/65 sm:text-base">
-            Mark operates with recognised credentials so you can engage with confidence.
+            Mark & Sell operates with recognised credentials so you can engage with confidence.
           </p>
-          <ul className="mx-auto mt-8 flex max-w-2xl flex-col gap-4 sm:flex-row sm:justify-center sm:gap-6">
-            <li className="flex flex-1 items-center gap-4 rounded-xl border border-black/10 bg-background px-4 py-4 dark:border-white/12 sm:flex-col sm:text-center sm:py-6">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400">
-                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden>
+          <ul className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
+
+            {/* RERA Card */}
+            <li className="flex flex-col items-center rounded-xl border border-black/10 bg-background p-6 text-center dark:border-white/10">
+              
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400">
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
               </span>
-              {/* <div>
-                <p className="text-sm font-semibold">RERA Registered Broker</p>
-                <p className="mt-1 text-xs text-foreground/60 sm:text-sm">Property transactions aligned with regulatory standards.</p>
-              </div> */}
-              {/* RERA Card */}
-              <div className="p-6 rounded-xl border text-center">
-                <h3 className="font-semibold text-lg">RERA Registered Broker</h3>
-                <p className="text-sm text-gray-600 mt-2">
-                  Property transactions aligned with regulatory standards.
-                </p>
 
-                {/* ADD THIS 👇 */}
-                <p className="text-xs text-gray-500 mt-2 font-medium">
-                  RERA No: PRM/KA/RERA/1251/310/AG/260113/006722
-                </p>
-              </div>
+              <h3 className="mt-4 text-lg font-semibold">RERA Registered Broker</h3>
 
+              <p className="mt-2 text-sm text-foreground/70">
+                Property transactions aligned with regulatory standards.
+              </p>
+
+              <p className="mt-3 text-xs font-mono bg-black/5 dark:bg-white/10 px-3 py-1 rounded">
+                PRM/KA/RERA/1251/310/AG/260113/006722
+              </p>
             </li>
-            <li className="flex flex-1 items-center gap-4 rounded-xl border border-black/10 bg-background px-4 py-4 dark:border-white/12 sm:flex-col sm:text-center sm:py-6">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-sky-500/15 text-sky-700 dark:text-sky-400">
-                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden>
+
+
+            {/* MSME Card */}
+            <li className="flex flex-col items-center rounded-xl border border-black/10 bg-background p-6 text-center dark:border-white/10">
+              
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-sky-500/15 text-sky-700 dark:text-sky-400">
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                 </svg>
               </span>
-              {/* <div>
-                <p className="text-sm font-semibold">MSME (Udyam) Registered</p>
-                <p className="mt-1 text-xs text-foreground/60 sm:text-sm">Recognised micro / small enterprise under Udyam.</p>
-              </div> */}
 
-              {/* MSME Card */}
-              <div className="p-6 rounded-xl border text-center">
-                <h3 className="font-semibold text-lg">MSME (Udyam) Registered</h3>
-                <p className="text-sm text-gray-600 mt-2">
-                  Recognised micro / small enterprise under Udyam.
-                </p>
+              <h3 className="mt-4 text-lg font-semibold">MSME (Udyam) Registered</h3>
 
-                {/* ADD THIS 👇 */}
-                <p className="text-xs text-gray-500 mt-2 font-medium">
-                  Udyam No: KR-03-0645264
-                </p>
-              </div>
+              <p className="mt-2 text-sm text-foreground/70">
+                Recognised micro / small enterprise under Udyam.
+              </p>
 
+              <p className="mt-3 text-xs font-mono bg-black/5 dark:bg-white/10 px-3 py-1 rounded">
+                KR-03-0645264
+              </p>
             </li>
+
           </ul>
         </section>
 

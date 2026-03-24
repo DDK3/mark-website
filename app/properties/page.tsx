@@ -4,15 +4,15 @@ import Link from "next/link";
 import { getCoverImage, listings } from "@/lib/properties";
 
 export const metadata: Metadata = {
-  title: "Properties | Mark",
-  description: "Browse flats, lands, and investment listings from Mark.",
+  title: "Properties | Mark & Sell",
+  description: "Browse flats, lands, and investment listings from Mark & Sell.",
 };
 
 export default function PropertiesPage() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
       <header className="mx-auto max-w-2xl text-center">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/50">Mark</p>
+        {/* <p className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/50">Mark & Sell</p> */}
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Properties</h1>
         <p className="mt-4 text-sm leading-relaxed text-foreground/70 sm:text-base">
           A sample of current opportunities—flats, land, and investment-oriented assets. Replace with your live

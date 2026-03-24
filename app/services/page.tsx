@@ -3,9 +3,9 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Services | Mark",
+  title: "Services | Mark & Sell",
   description:
-    "Shares (Demat & IEPF), properties (flats, lands, investments), and postal insurance plans from Mark.",
+    "Shares (Demat & IEPF), properties (flats, lands, investments), and postal insurance plans from Mark & Sell.",
 };
 
 const iconClass = "h-6 w-6";
@@ -111,7 +111,7 @@ export default function ServicesPage() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
       <header className="mx-auto max-w-2xl text-center">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/50">Mark</p>
+        {/* <p className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/50">Mark & Sell</p> */}
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Services</h1>
         <p className="mt-4 text-sm leading-relaxed text-foreground/70 sm:text-base">
           Structured support across shares, real estate, and postal insurance—clear scope, documented steps, and
