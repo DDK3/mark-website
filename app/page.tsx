@@ -131,10 +131,23 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
               </span>
-              <div>
+              {/* <div>
                 <p className="text-sm font-semibold">RERA Registered Broker</p>
                 <p className="mt-1 text-xs text-foreground/60 sm:text-sm">Property transactions aligned with regulatory standards.</p>
+              </div> */}
+              {/* RERA Card */}
+              <div className="p-6 rounded-xl border text-center">
+                <h3 className="font-semibold text-lg">RERA Registered Broker</h3>
+                <p className="text-sm text-gray-600 mt-2">
+                  Property transactions aligned with regulatory standards.
+                </p>
+
+                {/* ADD THIS 👇 */}
+                <p className="text-xs text-gray-500 mt-2 font-medium">
+                  RERA No: PRM/KA/RERA/1251/310/AG/260113/006722
+                </p>
               </div>
+
             </li>
             <li className="flex flex-1 items-center gap-4 rounded-xl border border-black/10 bg-background px-4 py-4 dark:border-white/12 sm:flex-col sm:text-center sm:py-6">
               <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-sky-500/15 text-sky-700 dark:text-sky-400">
@@ -142,10 +155,24 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                 </svg>
               </span>
-              <div>
+              {/* <div>
                 <p className="text-sm font-semibold">MSME (Udyam) Registered</p>
                 <p className="mt-1 text-xs text-foreground/60 sm:text-sm">Recognised micro / small enterprise under Udyam.</p>
+              </div> */}
+
+              {/* MSME Card */}
+              <div className="p-6 rounded-xl border text-center">
+                <h3 className="font-semibold text-lg">MSME (Udyam) Registered</h3>
+                <p className="text-sm text-gray-600 mt-2">
+                  Recognised micro / small enterprise under Udyam.
+                </p>
+
+                {/* ADD THIS 👇 */}
+                <p className="text-xs text-gray-500 mt-2 font-medium">
+                  Udyam No: KR-03-0645264
+                </p>
               </div>
+
             </li>
           </ul>
         </section>

@@ -85,9 +85,14 @@ export function SiteFooter() {
               <li className="max-w-xs leading-relaxed">
                 Bangalore
                 <br />
-                Karnataka, India, 560102
+                Karnataka, India.
               </li>
             </ul>
+            {/* <p className="text-xs text-gray-400 text-center mt-6">
+            RERA Registered: PRM/KA/RERA/1251/310/AG/260113/006722 <br />
+            <br />
+            Udyam: KR-03-0645264
+            </p> */}
           </div>
 
           <div className="sm:col-span-2 lg:col-span-1">

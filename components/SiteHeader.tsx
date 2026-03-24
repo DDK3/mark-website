@@ -19,17 +19,20 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-black/5 bg-background/80 backdrop-blur-md dark:border-white/10">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:h-16 sm:px-6 lg:px-8">
         <Link
-            href="/"
-            className="flex items-center gap-2 shrink-0"
-          >
-            <img
-              src="/logo.svg"
-              alt="Mark Logo"
-              className="w-10 h-10"
-            />
-            <span className="text-lg font-semibold">
-              Mark
-            </span>
+           href="/"
+           className="flex items-center gap-2 shrink-0"
+           onClick={() => setOpen(false)}
+         >
+           <Image
+             src="/logo.svg"
+             alt="Mark Logo"
+             width={36}
+             height={36}
+             priority
+           />
+           <span className="text-lg font-semibold tracking-tight sm:text-xl">
+             Mark
+           </span>
         </Link>
         
 
