@@ -18,6 +18,34 @@ export default function PropertiesPage() {
           A sample of current opportunities—flats, land, and investment-oriented assets. Replace with your live
           inventory when ready.
         </p>
+        
+                        {/* Goa Property PPT */}
+            <div className="mt-8 w-full overflow-hidden rounded-2xl border border-black/10 shadow-sm">
+              <iframe
+                src="/properties/goa-property.pdf"
+                className="w-full h-[350px] sm:h-[500px] lg:h-[650px]"
+              />
+            </div>
+
+            {/* Optional Buttons
+            <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/properties/goa-property.pdf"
+                target="_blank"
+                className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white hover:bg-black/80"
+              >
+                View Full Property Details
+              </a>
+
+              <Link
+                href="/#contact"
+                className="inline-flex items-center justify-center rounded-full border px-6 py-3 text-sm font-semibold hover:bg-black/5"
+              >
+                Enquire Now
+              </Link>
+            </div> */}
+            
+          
       </header>
 
       <ul className="mt-12 grid list-none gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">

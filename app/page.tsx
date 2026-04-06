@@ -99,6 +99,32 @@ export default function Home() {
             <p className="mt-3 text-sm leading-relaxed text-foreground/70 sm:text-base">
               Three focused practices—each delivered with documentation-first processes and clear communication.
             </p>
+                        {/* Goa Property PPT */}
+            {/* <div className="mt-8 w-full overflow-hidden rounded-2xl border border-black/10 shadow-sm">
+              <iframe
+                src="/properties/goa-property.pdf"
+                className="w-full h-[350px] sm:h-[500px] lg:h-[650px]"
+              />
+            </div> */}
+
+            {/* Optional Buttons
+            <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/properties/goa-property.pdf"
+                target="_blank"
+                className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white hover:bg-black/80"
+              >
+                View Full Property Details
+              </a>
+
+              <Link
+                href="/#contact"
+                className="inline-flex items-center justify-center rounded-full border px-6 py-3 text-sm font-semibold hover:bg-black/5"
+              >
+                Enquire Now
+              </Link>
+            </div> */}
+            
           </div>
           <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
             {services.map((item) => (
