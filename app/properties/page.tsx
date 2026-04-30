@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { getCoverImage, listings } from "@/lib/properties";
+// import { getCoverImage, listings } from "@/lib/properties";
 
-export const metadata: Metadata = {
-  title: "Properties | Mark & Sell",
-  description: "Browse flats, lands, and investment listings from Mark & Sell.",
-};
+// export const metadata: Metadata = {
+//   title: "Properties | Mark & Sell",
+//   description: "Browse flats, lands, and investment listings from Mark & Sell.",
+// };
 
 export default function PropertiesPage() {
   return (
