@@ -15,14 +15,14 @@ export default function PropertiesPage() {
         {/* <p className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/50">Mark & Sell</p> */}
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Properties</h1>
         <p className="mt-4 text-sm leading-relaxed text-foreground/70 sm:text-base">
-          A sample of current opportunities—flats, land, and investment-oriented assets. Replace with your live
-          inventory when ready.
+          Explore the latest property highlights and brochure details.
         </p>
         
                         {/* Goa Property PPT */}
             <div className="mt-8 w-full overflow-hidden rounded-2xl border border-black/10 shadow-sm">
               <iframe
                 src="/properties/goa-property.pdf"
+                title="Goa property brochure"
                 className="w-full h-[350px] sm:h-[500px] lg:h-[650px]"
               />
             </div>
