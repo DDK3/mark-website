@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
+// import type { Metadata } from "next";
+// import Image from "next/image";
+// import Link from "next/link";
 // import { getCoverImage, listings } from "@/lib/properties";
 
 // export const metadata: Metadata = {
