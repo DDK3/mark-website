@@ -48,7 +48,9 @@ export default function PropertiesPage() {
           
       </header>
 
-      <ul className="mt-12 grid list-none gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+      {/* Below code for showing properties list */}
+
+      {/* <ul className="mt-12 grid list-none gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
         {listings.map((property) => {
           const cover = getCoverImage(property);
           return (
@@ -100,7 +102,7 @@ export default function PropertiesPage() {
           </li>
           );
         })}
-      </ul>
+      </ul> */}
     </div>
   );
 }
