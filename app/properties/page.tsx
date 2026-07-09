@@ -1,13 +1,12 @@
-// import type { Metadata } from "next";
-// import Image from "next/image";
-// import Link from "next/link";
-// import { getCoverImage, listings } from "@/lib/properties";
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { getCoverImage, listings } from "@/lib/properties";
 
-// export const metadata: Metadata = {
-//   title: "Properties | Mark & Sell",
-//   description: "Browse flats, lands, and investment listings from Mark & Sell.",
-// };
-
+export const metadata: Metadata = {
+  title: "Properties | Mark & Sell",
+  description: "Browse flats, lands, and investment listings from Mark & Sell.",
+};
 export default function PropertiesPage() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
@@ -19,13 +18,13 @@ export default function PropertiesPage() {
         </p>
         
                         {/* Goa Property PPT */}
-            <div className="mt-8 w-full overflow-hidden rounded-2xl border border-black/10 shadow-sm">
+            {/* <div className="mt-8 w-full overflow-hidden rounded-2xl border border-black/10 shadow-sm">
               <iframe
                 src="/properties/goa-property.pdf"
                 title="Goa property brochure"
                 className="w-full h-[350px] sm:h-[500px] lg:h-[650px]"
               />
-            </div>
+            </div> */}
 
             {/* Optional Buttons
             <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
@@ -48,9 +47,7 @@ export default function PropertiesPage() {
           
       </header>
 
-      {/* Below code for showing properties list */}
-
-      {/* <ul className="mt-12 grid list-none gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+      <ul className="mt-12 grid list-none gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
         {listings.map((property) => {
           const cover = getCoverImage(property);
           return (
@@ -102,7 +99,6 @@ export default function PropertiesPage() {
           </li>
           );
         })}
-      </ul> */}
-    </div>
+      </ul>    </div>
   );
 }
