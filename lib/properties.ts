@@ -90,6 +90,30 @@ export const listings: PropertyListing[] = [
     description:
       "28,000 sqft industrial land in Gorguntepalya, Bangalore. Strong connectivity and proximity to key industrial corridors make it ideal for manufacturing or logistics.",
   },
+  {
+    id: "svasa-homes-flat-apartment",
+    title: "Svasa Homes — Flat / Apartment",
+    price: "₹9.99 Cr",
+    location: "Bull Temple Road, Basavanagudi, Bangalore",
+    gallery: [
+      placeholder("photo-1545324418-cc1a3fa10c00", "Apartment building at Svasa Homes"),
+      placeholder("photo-1600585154340-be6161a56a0c", "Premium residential apartment exterior"),
+    ],
+    description:
+      "Flat / apartment at Svasa Homes on Bull Temple Road, Basavanagudi, Bangalore, Karnataka 560004. A premium residential offering in one of South Bangalore's most established neighbourhoods, close to cultural landmarks and city conveniences.",
+  },
+  {
+    id: "svasa-homes-duplex-flat",
+    title: "Svasa Homes — Duplex Flat (7,600 sq. ft.)",
+    price: "₹21 Cr",
+    location: "Bull Temple Road, Basavanagudi, Bangalore",
+    gallery: [
+      placeholder("photo-1600596542815-ffad4c1539a9", "Spacious duplex residence at Svasa Homes"),
+      placeholder("photo-1600607687939-ce8a6c25118c", "Luxury apartment interior living space"),
+    ],
+    description:
+      "Duplex flat spanning 7,600 sq. ft. at Svasa Homes on Bull Temple Road, Basavanagudi, Bangalore, Karnataka 560004. An expansive, premium home in a sought-after Basavanagudi address with generous living space and landmark connectivity.",
+  },
 ];
 
 export function getListingById(id: string): PropertyListing | undefined {
